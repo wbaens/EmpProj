@@ -110,7 +110,7 @@ public class JFinkeldey_JavaIII_Project extends Application {
     btViewReport.setPrefWidth(180);
     
     Button btExport = new Button("Export File");
-    btExport.setPrefWidth(180
+    btExport.setPrefWidth(100);
     
     VBox vbPayroll = new VBox();
     vbPayroll.getChildren().addAll(btViewReport,btExport);

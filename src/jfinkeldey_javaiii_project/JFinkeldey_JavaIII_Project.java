@@ -104,13 +104,13 @@ public class JFinkeldey_JavaIII_Project extends Application {
     btLogout.setPrefWidth(100);
 
     Button btPayLogout = new Button("Logout");
-    btPayLogout.setPrefWidth(180);
+    btPayLogout.setPrefWidth(100);
 
     Button btViewReport = new Button("View Current Report");
     btViewReport.setPrefWidth(180);
     
     Button btExport = new Button("Export File");
-    btExport.setPrefWidth(180);
+    btExport.setPrefWidth(180
     
     VBox vbPayroll = new VBox();
     vbPayroll.getChildren().addAll(btViewReport,btExport);
